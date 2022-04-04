@@ -10,17 +10,15 @@
 
 	<?php
 		$entradas = conseguirUltimasEntradas($db);
-		//var_dump($entradas);
-		//die();
 
 		if(!empty($entradas)) :
 			while($entrada = mysqli_fetch_assoc($entradas)) :
 
 	?>
 		<article class="entrada">
-
 			<a href="">
 				<h2><?=$entrada['titulo']?></h2>
+				<span class="fecha"><?=$entrada['categoria'].' | '.$entrada['fecha']?></span>
 				<p>
 					<?=substr($entrada['descripcion'], 0, 200)."..."?>
 				</p>

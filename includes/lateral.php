@@ -8,7 +8,7 @@
 
            <!-- botones -->
            <a href="cerrar.php" class="boton boton-verde">Crear entradas</a>
-           <a href="cerrar.php" class="boton">Crear categoria</a>
+           <a href="crear-categoria.php" class="boton">Crear categoria</a>
            <a href="cerrar.php" class="boton boton-naranja">Mis datos</a>
            <a href="cerrar.php" class="boton boton-rojo">Cerrar sesion</a>
 
